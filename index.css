@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.fondopagina {
+	background-color: rgba(64, 207, 255, 0.316);
+}
+
+.encabezado, .menudecontenido  {
+	background-color:rgb(255, 255, 255);
+	width: 80%;
+	max-width: 1000;
+	padding: 10px;
+	margin: 20px auto;
+	}
+
+.encabezado {
+	
+	border-color: #00008B;
+	border-width: 3px;
+	border-style: solid;
+}
+
+#logotexto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#TITULOPRINCIPAL{
+	text-align: center;
+}
+
+.E {
+	color: #1e1ea0;
+	font-family: Monotype Corsiva;
+}
+
+ .PRO {
+ 	color:#1e1ea0;
+
+ }
+ .MENUDEOPCIONES{
+	background-color: #1e1ea0;
+	overflow: hidden;
+ }
+ #opcion{
+	background-color:#1e1ea0;
+	list-style: none;
+	float:right;
+ }
+ #enlaces{
+	padding: 10px 20px ;
+	display: block;
+	color: white;
+	text-decoration: none;
+ }
+ #opcion:hover {
+	background-color: #2449c5;
+	transition: background-color .5s;
+ }
